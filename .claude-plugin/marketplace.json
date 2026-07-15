@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "appfollow-ai-toolkit",
+  "description": "Find and track apps, understand what users complain about, and find keyword opportunities — analyst workflows over the AppFollow MCP, using your own OAuth-authenticated session.",
+  "owner": { "name": "AppFollow", "url": "https://appfollow.io" },
+  "plugins": [
+    {
+      "name": "appfollow-ai-toolkit",
+      "source": "./",
+      "description": "Find and track apps, understand what users complain about, and find keyword opportunities — analyst workflows over the AppFollow MCP, using your own OAuth-authenticated session.",
+      "version": "0.1.0",
+      "category": "data",
+      "keywords": ["appfollow", "mcp", "reviews", "aso", "ratings"]
+    }
+  ]
+}

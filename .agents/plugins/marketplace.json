@@ -1,0 +1,15 @@
+{
+  "name": "appfollow-ai-toolkit",
+  "description": "Find and track apps, understand what users complain about, and find keyword opportunities — analyst workflows over the AppFollow MCP, using your own OAuth-authenticated session.",
+  "interface": { "displayName": "AppFollow AI Toolkit" },
+  "plugins": [
+    {
+      "name": "appfollow-ai-toolkit",
+      "version": "0.1.0",
+      "description": "Find and track apps, understand what users complain about, and find keyword opportunities — analyst workflows over the AppFollow MCP, using your own OAuth-authenticated session.",
+      "source": { "source": "url", "url": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Developer Tools"
+    }
+  ]
+}
