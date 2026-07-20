@@ -1,0 +1,31 @@
+{
+  "name": "appfollow-ai-toolkit",
+  "version": "0.1.0",
+  "description": "Find and track apps, understand what users complain about, and find keyword opportunities — analyst workflows over the AppFollow MCP, using your own OAuth-authenticated session.",
+  "author": { "name": "AppFollow", "url": "https://appfollow.io" },
+  "homepage": "https://developers.appfollow.io",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/AppFollow/appfollow-ai-toolkit",
+  "keywords": ["appfollow", "mcp", "reviews", "aso", "ratings", "app-store", "google-play"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "AppFollow AI Toolkit",
+    "shortDescription": "App review, rating & ASO analyst workflows over the AppFollow MCP.",
+    "longDescription": "Turns the live AppFollow MCP server into ready-made analyst workflows: find and track apps, generate feedback reports (KPIs, trends, anomalies, top bugs and requests), and ASO reports (keyword positions, opportunities, an interactive add-keyword loop, metadata suggestions). Uses your own OAuth-authenticated MCP session and your own workspace credits; public tools only, no bundled secrets.",
+    "developerName": "AppFollow",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://appfollow.io",
+    "privacyPolicyURL": "https://appfollow.io/privacy",
+    "termsOfServiceURL": "https://appfollow.io/terms",
+    "brandColor": "#0A84FF",
+    "defaultPrompt": [
+      "Find and track our app on the App Store.",
+      "Build a feedback report for the last 30 days.",
+      "Run an ASO report and suggest keywords to add."
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}

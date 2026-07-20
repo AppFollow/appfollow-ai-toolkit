@@ -1,0 +1,11 @@
+{
+  "name": "appfollow-ai-toolkit",
+  "displayName": "AppFollow AI Toolkit",
+  "version": "0.1.0",
+  "description": "Find and track apps, understand what users complain about, and find keyword opportunities — analyst workflows over the AppFollow MCP, using your own OAuth-authenticated session.",
+  "author": { "name": "AppFollow", "url": "https://appfollow.io" },
+  "homepage": "https://developers.appfollow.io",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/AppFollow/appfollow-ai-toolkit",
+  "keywords": ["appfollow", "mcp", "reviews", "aso", "ratings", "app-store", "google-play", "analyst"]
+}
