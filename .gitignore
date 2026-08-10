@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+appfollow-reports/
+.DS_Store
+
+# CI-runtime GitHub App installation token (never committed)
+.gh_install_token
